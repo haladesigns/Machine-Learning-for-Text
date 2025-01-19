@@ -2,18 +2,32 @@
 
 ## Table of Contents
 
+- [Getting Started](#getting-started)
 - [Project Overview](#project-overview)
   - [Project Objectives](#project-objectives)
 - [Data Description](#data-description)
   - [Data Source](#data-source)
 - [Project Structure](#project-structure)
-  - [Getting Started](#getting-started)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Model Training](#model-training)
 - [Results and Performance](#results-and-performance)
 - [Testing with Custom Reviews](#testing-with-custom-reviews)
 - [Conclusion](#conclusion)
 
+## Getting Started
+
+1. **Clone or Download the Repository**  
+   - Download the project folder containing the notebook (`Machine Learning for Text.ipynb`) and the dataset (`imdb_reviews.tsv`).
+
+2. **Install Required Libraries**  
+   - Ensure your Python environment has the necessary libraries (e.g., `pandas`, `scikit-learn`, `matplotlib`, `seaborn`, etc.).
+   - For advanced embeddings, consider installing Hugging Face Transformers (`transformers`), though it’s optional.
+
+3. **Open the Notebook**  
+   - Launch the notebook in your preferred environment (e.g., Jupyter Notebook or VSCode) to explore and execute the cells.
+
+4. **Adjust Paths (If Needed)**  
+   - If the dataset file (`imdb_reviews.tsv`) is located elsewhere, update the path in the data loading cells accordingly.
 
 ## Project Overview
 
@@ -87,21 +101,6 @@ The dataset was provided by:
 
 **Data**: `imdb_reviews.tsv`  
 - IMDB reviews labeled as positive (`1`) or negative (`0`), along with indicators for train vs. test splits.
-
-### Getting Started
-
-1. **Clone or Download the Repository**  
-   - Download the project folder containing the notebook (`Machine Learning for Text.ipynb`) and the dataset (`imdb_reviews.tsv`).
-
-2. **Install Required Libraries**  
-   - Ensure your Python environment has the necessary libraries (e.g., `pandas`, `scikit-learn`, `matplotlib`, `seaborn`, etc.).
-   - For advanced embeddings, consider installing Hugging Face Transformers (`transformers`), though it’s optional.
-
-3. **Open the Notebook**  
-   - Launch the notebook in your preferred environment (e.g., Jupyter Notebook or VSCode) to explore and execute the cells.
-
-4. **Adjust Paths (If Needed)**  
-   - If the dataset file (`imdb_reviews.tsv`) is located elsewhere, update the path in the data loading cells accordingly.
 
 ## Exploratory Data Analysis (EDA)
 
