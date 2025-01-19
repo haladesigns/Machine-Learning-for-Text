@@ -1,5 +1,20 @@
 # Movie Review Sentiment Analysis
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+  - [Project Objectives](#project-objectives)
+- [Data Description](#data-description)
+  - [Data Source](#data-source)
+- [Project Structure](#project-structure)
+  - [Getting Started](#getting-started)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Model Training](#model-training)
+- [Results and Performance](#results-and-performance)
+- [Testing with Custom Reviews](#testing-with-custom-reviews)
+- [Conclusion](#conclusion)
+
+
 ## Project Overview
 
 This project focuses on building a robust text classification system to identify the sentiment (positive or negative) in movie reviews. By leveraging a labeled dataset of IMDB reviews, the ultimate goal is to develop and evaluate various modeling approaches that can accurately predict review polarity.
@@ -164,7 +179,7 @@ To further validate model reliability, a few self-composed reviews were fed thro
 
 These additional tests offer practical validation beyond the standard train/test split.
 
-# Conclusion
+## Conclusion
 
 1. **Goal Achievement**  
    - The project’s primary objective of detecting negative reviews was accomplished.  
