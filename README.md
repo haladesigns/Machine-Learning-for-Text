@@ -120,6 +120,10 @@ The dataset was provided by:
 
 The EDA section in the notebook showcases plots and summary statistics that guide decisions on preprocessing and model selection.
 
+![Plot Reviews Per Movie](https://github.com/user-attachments/assets/95723e4c-7fe3-432c-b574-77382de410f8)
+
+![Number of Movies and Reviews Over Years](https://github.com/user-attachments/assets/e3c1cbc6-90c9-42a8-9460-bab1bfb218da)
+
 ## Model Training
 
 1. **Data Preprocessing**  
@@ -161,6 +165,10 @@ All relevant code is included in the notebook, with clear demarcations for each 
    - Simple approaches (e.g., TF-IDF + Logistic Regression) can yield robust results.  
    - Ensemble methods may further improve performance but require careful hyperparameter optimization to meet or exceed the 0.85 F1 threshold.
 
+![LR_F1 ROC PRC](https://github.com/user-attachments/assets/00bfbe65-c33d-47be-9ae3-6a18e03d5d3d)
+
+![Base_F1 ROC PRC](https://github.com/user-attachments/assets/e5b60e26-a402-4f69-a1bf-333956bc067d)
+
 ## Testing with Custom Reviews
 
 To further validate model reliability, a few self-composed reviews were fed through the trained models:
@@ -177,6 +185,7 @@ To further validate model reliability, a few self-composed reviews were fed thro
    - Subtle language nuances (e.g., sarcasm, irony) can still pose challenges without more sophisticated context modeling.
 
 These additional tests offer practical validation beyond the standard train/test split.
+![Model3](https://github.com/user-attachments/assets/8b0f6a91-9023-428c-af8a-3a5bb30f2402)
 
 ## Conclusion
 
